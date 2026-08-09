@@ -244,7 +244,7 @@ nav ul li a:hover {
     top:10px;
     left:50%;
     transform:translateX(-50%);
-    overflow: hidden;
+    overflow: visible;
     width:95%;
     height:65px;
     padding:0 15px;
@@ -285,20 +285,15 @@ nav ul li a:hover {
         position: fixed;
         top: 0;
         left: -100%;
-
         width: 100%;
         height: 100vh;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        gap: 30px;
-
+        gap:30px;
         background: rgba(8, 12, 35, .92);
         backdrop-filter: blur(30px);
-
         transition: .45s;
     }
 
@@ -2333,6 +2328,8 @@ nav ul li a:hover {
 
     .contact-section {
         padding: 60px 20px;
+        box-sizing: border-box;
+       
     }
 
     .contact-heading {
@@ -2361,6 +2358,8 @@ nav ul li a:hover {
     .contact-form-card {
         padding: 22px;
         border-radius: 18px;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .input-box {
