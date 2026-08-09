@@ -241,25 +241,20 @@ nav ul li a:hover {
  nav{
 
     position:fixed;
-
     top:10px;
-
     left:50%;
-
     transform:translateX(-50%);
     overflow: hidden;
     width:95%;
-
     height:65px;
-
     padding:0 15px;
-
     border-radius:18px;
 }
 
 
     .left {
         display: flex;
+        width: 80%;
         flex-direction: column;
         justify-content: center;
         line-height: 1;
