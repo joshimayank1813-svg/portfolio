@@ -263,13 +263,13 @@ nav ul li a:hover {
         flex-direction: column;
         justify-content: center;
         line-height: 1;
-        font-size: 1rem;
-        
+        font-size:0.5rem;
+
     }
 
     .left span {
         margin-left: 0 !important;
-        font-size: 28px;
+        font-size: 18px;
     }
 
     .left div {
