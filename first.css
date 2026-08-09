@@ -247,7 +247,7 @@ nav ul li a:hover {
     left:50%;
 
     transform:translateX(-50%);
-
+    overflow: hidden;
     width:95%;
 
     height:65px;
