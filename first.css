@@ -163,9 +163,7 @@ nav:hover {
     margin-top: 4px;
     display: none;
     color: #A8B2D1;
-
     font-size: 10px;
-
     letter-spacing: 1px;
 }
 
@@ -265,6 +263,8 @@ nav ul li a:hover {
         flex-direction: column;
         justify-content: center;
         line-height: 1;
+        font-size: 1rem;
+        
     }
 
     .left span {
